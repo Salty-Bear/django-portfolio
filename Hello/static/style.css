@@ -1,0 +1,132 @@
+
+/*csslint box-sizing: false*/
+body{
+  background: #00ADB5;
+}
+
+.nav-item::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #00ADB5;
+  width: 0;
+  top: 60px;
+  transition: 0.4s;
+}
+
+.nav-item:hover::after{
+  width: 6%;
+}
+
+.logo{
+  width: 18%;
+}
+
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.nav-link active{
+  width: 30px;
+}
+
+.nav-link{
+  width: 120px;
+}
+
+.logose{
+  width: 5%;
+}
+
+.about{
+  color: #222831;
+  height: 70%;
+  font-family: Alkalami;
+  font-size: 20px;
+}
+.first{
+  float:left;
+  width:50%;
+  height: 50%;
+  box-sizing: border-box;
+  padding-bottom: 110px;
+  position: relative;
+}
+.second{
+  float:right;
+  width:50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.man{
+  padding-left: 25%;
+  padding-top: 0;
+  width: 80%;
+}
+.about{
+  padding-left: 2%;
+  background: #00ADB5;
+}
+.languages{
+  width: 40px;
+}
+
+.skills{
+  background: #40514E;
+  width:100%;
+}
+
+.label{
+  color: #45EBA5;
+  font-family: 'Silkscreen', cursive;
+}
+
+.skillheading{
+  height: 50%;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+  color: #E4F9F5;
+  text-shadow: 0 0 10px #30E3CA,
+  0 0 20px #30E3CA,
+  0 0 40px #30E3CA,
+  0 0 80px #30E3CA,
+  0 0 120px #30E3CA;
+}
+
+.ok{
+  width: 50%;
+  float:right;
+  font-size: 30px;
+  font-family: Alkalami;
+  text-align: left;
+  padding-top: 10%;
+  color: #45EBA5;
+}
+.card{
+  width: 70%;
+  float: right;
+}
+
+
+.cont{
+  width: 100px;
+}
+
+.adboutmetxt{
+  color: #E4F9F5;
+  text-shadow: 0 0 10px #40514E,
+  0 0 20px #40514E,
+  0 0 40px #40514E,
+  0 0 80px #40514E,
+  0 0 120px #40514E;
+}
+
+.shrugi{
+  position: absolute;
+  width:100%;
+}
